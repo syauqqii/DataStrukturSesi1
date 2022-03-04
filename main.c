@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 #ifdef _WIN32
 #include <windows.h>
@@ -129,7 +130,7 @@ void mnuProgramKu(){
 	int input_choice;
 	
 	// Panggil function
-	clear_screen(); // Bersihkan konsol
+	// clear_screen(); // Bersihkan konsol
 	tampilNmToko(); // Tampilkan nama toko
 	tampilProduk(); // Tampilkan tabel produk
 	
